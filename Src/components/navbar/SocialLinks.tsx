@@ -3,14 +3,14 @@ import { Mail } from "lucide-react";
 export const SocialLinks = () => (
   <div className="flex items-center space-x-4">
     <a
-      href="mailto:lathusanthurairajah@codearson.com"
+      href="mailto:contact@codearson.com"
       className="text-white hover:text-gaming-primary transition-colors"
       aria-label="Email us"
     >
       <Mail size={24} />
     </a>
     <a
-      href="https://wa.me/+447440641608"
+      href="https://wa.me/your-whatsapp-number"
       target="_blank"
       rel="noopener noreferrer"
       className="text-white hover:text-gaming-primary transition-colors"

@@ -85,7 +85,7 @@ const Navbar = () => {
             className="hover:scale-105 transition-all duration-300"
           >
             <img 
-              src="Public/uploads/8a9dcbb9-560e-4e58-a713-30f02d95e527.png" 
+              src="/uploads/8a9dcbb9-560e-4e58-a713-30f02d95e527.png" 
               alt="Codearson Logo" 
               className="h-16 md:h-20 w-auto py-2"
             />
