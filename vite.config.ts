@@ -1,5 +1,3 @@
-
-// vite.config.js
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react-swc";
 import path from "path";
@@ -17,7 +15,8 @@ export default defineConfig(({ mode }) => ({
   },
   build: {
     rollupOptions: {
-      external: ['@/main.tsx'],  // Optional externalization
+      // Remove or comment out the external option
+      // external: ['@/main.tsx'],
     },
   },
 }));
